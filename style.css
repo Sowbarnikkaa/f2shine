@@ -299,16 +299,19 @@ ul{
         cursor: pointer;
     }
 }
-
-
-@media only screen and (max-width: 600px) {
-    .row{
-        text-align: center;
-    }
-    
-    .col-2, .col-3, .col-4{
-        flex-basis: 100%;
-    }
+nav ul li button
+{
+    font-size: 20px;
+    color:black;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: white;
 }
 .form-box
 {
@@ -414,4 +417,14 @@ span
 {
 	color:white;
 	font-size: 15;
+}
+
+@media only screen and (max-width: 600px) {
+    .row{
+        text-align: center;
+    }
+    
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
 }
